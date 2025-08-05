@@ -64,6 +64,14 @@ This project is configured to deploy automatically to GitHub Pages using GitHub 
 3. Under "Source", select "GitHub Actions"
 4. The workflow will automatically deploy when you push to the main branch
 
+### Custom Domain
+
+The project is configured with a custom domain: `www.sonukumarsingh.com.np`
+
+- The CNAME file is included in the `public/` directory
+- GitHub Pages will automatically use this domain when deployed
+- Make sure your DNS settings point to GitHub Pages
+
 ### Manual Deployment
 
 If you want to build and deploy manually:
